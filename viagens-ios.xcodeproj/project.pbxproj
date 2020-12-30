@@ -13,6 +13,14 @@
 		BFB8139A259AB94E00405BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB81398259AB94E00405BF1 /* Main.storyboard */; };
 		BFB8139C259AB95000405BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB8139B259AB95000405BF1 /* Assets.xcassets */; };
 		BFB8139F259AB95000405BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8139D259AB95000405BF1 /* LaunchScreen.storyboard */; };
+		BFB813AE259BF96F00405BF1 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB813AD259BF96F00405BF1 /* Viagem.swift */; };
+		BFB813B2259BFAD700405BF1 /* ViagemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB813B1259BFAD700405BF1 /* ViagemDao.swift */; };
+		BFB813B5259BFFCC00405BF1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB813B4259BFFCC00405BF1 /* TableViewCell.swift */; };
+		BFB813D0259C119000405BF1 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB813CB259C119000405BF1 /* img1.png */; };
+		BFB813D1259C119000405BF1 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFB813CC259C119000405BF1 /* img5.jpg */; };
+		BFB813D2259C119000405BF1 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFB813CD259C119000405BF1 /* img2.jpg */; };
+		BFB813D3259C119000405BF1 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFB813CE259C119000405BF1 /* img4.jpg */; };
+		BFB813D4259C119000405BF1 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFB813CF259C119000405BF1 /* img3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		BFB8139B259AB95000405BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB8139E259AB95000405BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB813A0259AB95000405BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB813AD259BF96F00405BF1 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		BFB813B1259BFAD700405BF1 /* ViagemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDao.swift; sourceTree = "<group>"; };
+		BFB813B4259BFFCC00405BF1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BFB813CB259C119000405BF1 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = "../../../../../Downloads/Arquivos Projeto/Assets/img1.png"; sourceTree = "<group>"; };
+		BFB813CC259C119000405BF1 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img5.jpg; path = "../../../../../Downloads/Arquivos Projeto/Assets/img5.jpg"; sourceTree = "<group>"; };
+		BFB813CD259C119000405BF1 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img2.jpg; path = "../../../../../Downloads/Arquivos Projeto/Assets/img2.jpg"; sourceTree = "<group>"; };
+		BFB813CE259C119000405BF1 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img4.jpg; path = "../../../../../Downloads/Arquivos Projeto/Assets/img4.jpg"; sourceTree = "<group>"; };
+		BFB813CF259C119000405BF1 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpg; path = "../../../../../Downloads/Arquivos Projeto/Assets/img3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 		BFB81391259AB94E00405BF1 /* viagens-ios */ = {
 			isa = PBXGroup;
 			children = (
+				BFB813BA259C09C700405BF1 /* Asserts */,
+				BFB813B0259BFAC900405BF1 /* Data */,
 				BFB813AB259AB9D400405BF1 /* Views */,
 				BFB813AA259AB9CC00405BF1 /* Controllers */,
 				BFB813A8259AB9BC00405BF1 /* Models */,
@@ -70,6 +88,7 @@
 		BFB813A8259AB9BC00405BF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BFB813AD259BF96F00405BF1 /* Viagem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -77,6 +96,7 @@
 		BFB813AA259AB9CC00405BF1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFB813B4259BFFCC00405BF1 /* TableViewCell.swift */,
 				BFB81396259AB94E00405BF1 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -89,6 +109,26 @@
 				BFB8139D259AB95000405BF1 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BFB813B0259BFAC900405BF1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFB813B1259BFAD700405BF1 /* ViagemDao.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BFB813BA259C09C700405BF1 /* Asserts */ = {
+			isa = PBXGroup;
+			children = (
+				BFB813CB259C119000405BF1 /* img1.png */,
+				BFB813CD259C119000405BF1 /* img2.jpg */,
+				BFB813CF259C119000405BF1 /* img3.jpg */,
+				BFB813CE259C119000405BF1 /* img4.jpg */,
+				BFB813CC259C119000405BF1 /* img5.jpg */,
+			);
+			path = Asserts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +188,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB813D3259C119000405BF1 /* img4.jpg in Resources */,
 				BFB8139F259AB95000405BF1 /* LaunchScreen.storyboard in Resources */,
+				BFB813D1259C119000405BF1 /* img5.jpg in Resources */,
+				BFB813D0259C119000405BF1 /* img1.png in Resources */,
 				BFB8139C259AB95000405BF1 /* Assets.xcassets in Resources */,
+				BFB813D2259C119000405BF1 /* img2.jpg in Resources */,
 				BFB8139A259AB94E00405BF1 /* Main.storyboard in Resources */,
+				BFB813D4259C119000405BF1 /* img3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB813AE259BF96F00405BF1 /* Viagem.swift in Sources */,
 				BFB81397259AB94E00405BF1 /* ViewController.swift in Sources */,
+				BFB813B2259BFAD700405BF1 /* ViagemDao.swift in Sources */,
+				BFB813B5259BFFCC00405BF1 /* TableViewCell.swift in Sources */,
 				BFB81393259AB94E00405BF1 /* AppDelegate.swift in Sources */,
 				BFB81395259AB94E00405BF1 /* SceneDelegate.swift in Sources */,
 			);
