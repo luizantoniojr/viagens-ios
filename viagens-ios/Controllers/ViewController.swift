@@ -36,6 +36,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.quantidadeDiasLabel?.text = destino.quantidadeDias
         cell.precoLabel?.text = destino.preco
         cell.destinoImageView?.image = UIImage(named: destino.caminhoImagem)
+        cell.destinoImageView.layer.cornerRadius = 10
 
         return cell
     }
